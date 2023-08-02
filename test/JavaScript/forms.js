@@ -29,30 +29,30 @@ password_3.onclick = () => {
 function show_or_hide_1() {
   if (password_1.type === "password") {
     password_1.type = "text";
-    show_hide_icon_1.src = "../images/hide.png";
+    show_hide_icon_1.src = "../Images/hide.png";
   } else {
     password_1.type = "password";
-    show_hide_icon_1.src = "../images/show.png";
+    show_hide_icon_1.src = "../Images/show.png";
   }
 }
 //refers to the second password field
 function show_or_hide_2() {
   if (password_2.type === "password") {
     password_2.type = "text";
-    show_hide_icon_2.src = "../images/hide.png";
+    show_hide_icon_2.src = "../Images/hide.png";
   } else {
     password_2.type = "password";
-    show_hide_icon_2.src = "../images/show.png";
+    show_hide_icon_2.src = "../Images/show.png";
   }
 }
 //refers to the third password field
 function show_or_hide_3() {
   if (password_3.type === "password") {
     password_3.type = "text";
-    show_hide_icon_3.src = "../images/hide.png";
+    show_hide_icon_3.src = "../Images/hide.png";
   } else {
     password_3.type = "password";
-    show_hide_icon_3.src = "../images/show.png";
+    show_hide_icon_3.src = "../Images/show.png";
   }
 }
 //checks if the two passwords match

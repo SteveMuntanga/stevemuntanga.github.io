@@ -1,0 +1,64 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-zm">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width,maximum-scale=1.0,initial-scale=1.0,minimum-scale=0.9,user-scalable=no" name="viewport">
+    <meta name="description" content="New song titled Atarodo by Vic Smart available on major streaming platforms.">
+    <meta name="keywords" content="customer,care,support,account,create,signup,personal">
+    <meta name="theme-color" content="#00238c">
+    <link rel="stylesheet" href="../CSS/controls.css">
+    <link rel="icon" href="">
+    <style>
+      #female {
+        margin-left: 50px;
+      }
+      .password {
+        width: calc(100% - 40px);
+        padding: 0px 8px;
+        height: 40px;
+        border: none;
+        margin: 0px 0px 0px -8px;
+        font-size: 20px;
+        outline: none;
+      }
+      #submit-button {
+        padding: 12px 0px;
+        border-radius: 22px;
+        margin: auto;
+      }
+      @media only screen and (min-width: 800px){
+        .division {
+          width: 550px;
+        }
+        #firstname {
+          margin-right: 5px;
+        }
+        
+      }
+    </style>
+    <title>LOGIN</title>
+  </head>
+  <body>
+    <div class="division">
+      <h2>LOGIN</h2>
+      <div class="inner-content">
+        <p>Login into your account</p>
+        <form method="post" action="login.php" name="login" enctype="" onsubmit="">
+          <input type="text" required placeholder="Phone or Email" name="phone_or_email" id="Phone-or-Email" class="outline-on-focus wide-input-field input-field"><br>
+          <br>
+          <div class="wide-input-field collection" id="password-box-1">
+            <input type="password" minlength="8" required name="password" placeholder="Password" id="password_1" class="password">
+            <img src="../Images/show.png" alt="icon" class="field-icon" id="show-hide-icon-1" onclick="show_or_hide_1()">
+          </div>
+          <br>
+          <p class="text-align-center"><a href="">Forgot password?</a> or <a href="">Recover account</a></p>
+          <input type="submit" value="LOGIN" id="submit-button" class="wide-input-field background-color outline-on-focus">
+          <p class="text-align-center">New member? <a href="">Sign Up</a></p>
+        </form>
+      </div>
+    </div>
+    <br>
+    <script src="../JavaScript/forms.js"></script>
+  </body>
+</html>
